@@ -46,11 +46,6 @@ The primary goal is to create a reliable and responsive motion detection system.
 
 The physical components are wired according to the following diagram:
 
-#### Wokwi Simulation
-
-You can test and interact with a live simulation of this circuit in your browser using Wokwi. This is perfect for understanding the connections and code before building the physical device.
-
-**➡️ [Interact with the live Wokwi Simulation here](https://www.google.com/search?q=YOUR_WOKWI_SIMULATION_LINK)**
 
 ### System Architecture & Flow
 
@@ -65,7 +60,7 @@ You can test and interact with a live simulation of this circuit in your browser
 
 This flowchart illustrates the logic programmed into the ESP32.
 
-```mermaid
+```
 graph TD
     A[Start] --> B{Setup};
     B --> B1[Initialize Pins];
@@ -81,13 +76,9 @@ graph TD
     H --> C;
 ```
 
-*(This flowchart is created using Mermaid syntax, which will render automatically in a GitHub README file.)*
-
------
-
-### ThingSpeak Integration
-
+ThingSpeak Integration
 ThingSpeak is the cloud backbone of this project. It is used to:
 
-  * **Log Data:** Securely store motion events with timestamps using a "Write API Key".
-  * **Trigger Alerts:** Use the `React` app to monitor the data channel and send a notification when new data arrives.
+Log Data: Securely store motion events with timestamps using a "Write API Key".
+
+Trigger Alerts: Use the React app to monitor the data channel and send a notification when new data arrives.
