@@ -57,9 +57,10 @@ The physical components are wired according to the following diagram:
 4.  **Push Notification:** ThingSpeak receives the data and uses its `React` or `ThingHTTP` app to trigger a notification service (like IFTTT), sending an alert to your phone.
 
 - Project Demo Video :
--    
+- 
 
-Uploading Project Demo (1).mp4…
+
+https://github.com/user-attachments/assets/0884c92b-ac2f-4e01-ac8b-0cf3697312c8
 
 
 
