@@ -56,6 +56,13 @@ The physical components are wired according to the following diagram:
 3.  **Cloud Communication:** The ESP32 connects to Wi-Fi and sends the motion data (e.g., a '1') to a ThingSpeak channel.
 4.  **Push Notification:** ThingSpeak receives the data and uses its `React` or `ThingHTTP` app to trigger a notification service (like IFTTT), sending an alert to your phone.
 
+- Project Demo Video :
+-    
+
+Uploading Project Demo (1).mp4…
+
+
+
 #### Flowchart of the Code
 
 This flowchart illustrates the logic programmed into the ESP32.
